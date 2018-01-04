@@ -19,15 +19,20 @@ namespace C_Sharp_Sorting_Algo
             }
             Console.WriteLine("Before sorting: ");
             nums.DisplayElemnts();
-           // Console.WriteLine("During sorting: ");
-           // nums.BubbleSort();
-           // Console.WriteLine("After Bubble  sorting: ");
-          //  nums.DisplayElemnts();
+            // Console.WriteLine("During sorting: ");
+            // nums.BubbleSort();
+            // Console.WriteLine("After Bubble  sorting: ");
+            //  nums.DisplayElemnts();
+
+            // Console.WriteLine("During sorting: ");
+            // nums.SelectionSort();
+            // Console.WriteLine("After Selection  sorting: ");
+            // nums.DisplayElemnts();
 
             Console.WriteLine("During sorting: ");
-            nums.SelectionSort();
-            Console.WriteLine("After Selection  sorting: ");
-            nums.DisplayElemnts();
+            nums.InsertionSort();
+             Console.WriteLine("After Insertion  sorting: ");
+             nums.DisplayElemnts();
             Console.ReadKey();
         }
     }
